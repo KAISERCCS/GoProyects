@@ -19,7 +19,7 @@ func main() {
 		}(i)
 	}
 
-	wg.Wait()
+	wg.Wait(
 
 	fmt.Println("Datos:", datos)
 }
